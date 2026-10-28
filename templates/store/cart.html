@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - ShopEasy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="{% url 'home' %}">ShopEasy</a>
+    <a href="{% url 'home' %}" class="btn btn-outline-light">Continue Shopping</a>
+  </div>
+</nav>
+
+<div class="container my-5">
+    <h2 class="mb-4">Your Shopping Cart</h2>
+
+    {% if cart_items %}
+    <div class="row">
+        <!-- Cart Items -->
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-body p-0">
+                    <table class="table table-hover mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Qty</th>
+                                <th>Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for item in cart_items %}
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        {% if item.product.image %}
+                                        <img src="{{ item.product.image.url }}" style="width:50px; height:50px; object-fit:cover;" class="rounded me-2">
+                                        {% endif %}
+                                        <span>{{ item.product.name }}</span>
+                                    </div>
+                                </td>
+                                <td>₹{{ item.product.price }}</td>
+                                <td>{{ item.quantity }}</td>
+                                <td>₹{% widthratio item.product.price 1 item.quantity %}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h4>Order Summary</h4>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span>Total Items:</span>
+                        <span>{{ cart_items|length }}</span>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <strong>Total Price:</strong>
+                        <strong class="text-success fs-5">₹{{ total }}</strong>
+                    </div>
+                    <div class="d-grid mt-4">
+                        <a href="{% url 'checkout' %}" class="btn btn-warning btn-lg">Proceed to Checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% else %}
+    <!-- Empty Cart -->
+    <div class="text-center py-5">
+        <h3>Your cart is empty 😔</h3>
+        <p class="text-muted">Add some products to see them here</p>
+        <a href="{% url 'home' %}" class="btn btn-dark mt-3">Start Shopping</a>
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
