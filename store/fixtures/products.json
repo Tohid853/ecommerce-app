@@ -1,0 +1,158 @@
+[
+{
+  "model": "store.product",
+  "pk": 1,
+  "fields": {
+    "name": "Nike Air Max Shoes",
+    "price": "4999.00",
+    "description": "Nike Air Max 270 - Ultimate comfort with iconic Air unit. \r\n\r\nFeatures:\r\n- Breathable mesh upper keeps foot cool\r\n- Air Max cushioning for all-day comfort\r\n- Durable rubber outsole with traction pattern\r\n- Perfect for Running, Gym, Casual Wear\r\n\r\nColor: Black & White\r\nMaterial: Mesh + Foam\r\nAvailable Sizes: UK 6 to UK 10\r\nOriginal Product - With Box",
+    "stock": 15,
+    "image": "products/ryan-waring-164_6wVEHfI-unsplash.jpg",
+    "created_at": "2026-10-06T17:53:24.410Z",
+    "category": 3
+  }
+},
+{
+  "model": "store.product",
+  "pk": 2,
+  "fields": {
+    "name": "T-Shirt",
+    "price": "499.00",
+    "description": "Premium quality 100% cotton t-shirt for daily wear. \r\nSoft, breathable and comfortable. \r\nAvailable in all sizes. Perfect for casual and sports use.",
+    "stock": 30,
+    "image": "products/ryan-hoffman-6Nub980bI3I-unsplash.jpg",
+    "created_at": "2026-10-06T17:59:53.320Z",
+    "category": 1
+  }
+},
+{
+  "model": "store.product",
+  "pk": 3,
+  "fields": {
+    "name": "Jeans",
+    "price": "700.00",
+    "description": "Slim fit stretchable denim jeans, durable and stylish for all seasons.",
+    "stock": 20,
+    "image": "products/tuananh-blue-2QSK4kFoVZE-unsplash.jpg",
+    "created_at": "2026-10-06T18:02:15.683Z",
+    "category": 1
+  }
+},
+{
+  "model": "store.product",
+  "pk": 4,
+  "fields": {
+    "name": "Pro X1 Smartwatch",
+    "price": "1999.00",
+    "description": "Latest Pro X1 Smartwatch with 1.9 inch HD Display.\r\n\r\nFeatures:\r\n- Calling & Message Notification\r\n- Heart Rate & Blood Pressure Monitor\r\n- Step Count, Calorie Tracker, Sleep Monitor\r\n- Water Resistant IP68\r\n- 7 Days Battery Backup\r\n- Compatible with Android & iOS\r\n\r\nPerfect for fitness, sports and daily use.",
+    "stock": 20,
+    "image": "products/simon-daoudi-2wFoa040m8g-unsplash.jpg",
+    "created_at": "2026-10-06T18:07:55.765Z",
+    "category": 2
+  }
+},
+{
+  "model": "store.product",
+  "pk": 5,
+  "fields": {
+    "name": "Bass Pro Wireless Headphones",
+    "price": "1499.00",
+    "description": "Bass Pro Wireless Bluetooth Headphones\r\n\r\nFeatures:\r\n- Super Bass & HD Sound Quality\r\n- 40 Hours Battery Backup\r\n- Fast Charging - 10 min charge = 5 hours play\r\n- Built-in Mic for Calling\r\n- Comfortable & Foldable Design\r\n- Bluetooth 5.3 - Strong Connection upto 10m\r\n- Compatible with all phones, laptop, PC\r\n\r\nBest for music, gaming and online classes.",
+    "stock": 15,
+    "image": "products/c-d-x-PDX_a_82obo-unsplash.jpg",
+    "created_at": "2026-10-06T18:14:14.184Z",
+    "category": 2
+  }
+},
+{
+  "model": "store.product",
+  "pk": 6,
+  "fields": {
+    "name": "Premium Formal shirt",
+    "price": "799.00",
+    "description": "Premium Formal Shirt for Men\r\n\r\nFabric: 100% Cotton, Breathable & Comfortable\r\nFit Type: Slim Fit\r\nPattern: Solid / Check (as per image)\r\nFeatures:\r\n- Button closure, Full sleeves\r\n- Machine Washable, No Color Fade\r\n- Perfect for Office, Party & Casual Wear\r\n- Available in All Sizes - M, L, XL, XXL\r\n\r\nStylish and comfortable for all day wear.",
+    "stock": 25,
+    "image": "products/nimble-made-hMMXhKSZk7k-unsplash.jpg",
+    "created_at": "2026-10-06T18:20:34.954Z",
+    "category": 1
+  }
+},
+{
+  "model": "store.product",
+  "pk": 7,
+  "fields": {
+    "name": "Earbud",
+    "price": "1999.00",
+    "description": "Wireless Bluetooth Earbuds – Enjoy high-quality sound with powerful bass and crystal-clear audio. These lightweight earbuds provide a comfortable fit and stable Bluetooth connectivity. With a built-in microphone, touch controls, and a compact charging case, they are perfect for music, calls, gaming, and everyday use.",
+    "stock": 20,
+    "image": "products/theregisti-YwJGDLKOE48-unsplash.jpg",
+    "created_at": "2026-10-08T13:34:04.421Z",
+    "category": 2
+  }
+},
+{
+  "model": "store.product",
+  "pk": 8,
+  "fields": {
+    "name": "Dell Laptop",
+    "price": "35000.00",
+    "description": "Dell Laptop – Experience smooth and efficient performance with a powerful processor, fast SSD storage, and sufficient RAM for multitasking. Its clear display and comfortable keyboard make it suitable for office work, online classes, browsing, programming, entertainment, and everyday tasks. With a sleek and lightweight design, this Dell laptop is easy to carry and ideal for both home and professional use.",
+    "stock": 15,
+    "image": "products/kari-shea-1SAnrIxw5OY-unsplash.jpg",
+    "created_at": "2026-10-08T13:40:04.845Z",
+    "category": 2
+  }
+},
+{
+  "model": "store.product",
+  "pk": 9,
+  "fields": {
+    "name": "Puma Shoes",
+    "price": "2999.00",
+    "description": "Puma RS-X Men's Running Shoes - Lightweight, breathable mesh upper with superior cushioning. Perfect for daily running, gym and casual wear. Rubber sole for extra grip.\r\n\r\nMaterial: Mesh + Synthetic\r\nColor: Black/White\r\nSize: 6-10 Available\r\n100% Original | 1 Year Warranty",
+    "stock": 20,
+    "image": "products/the-dk-photography-NUoPWImmjCU-unsplash.jpg",
+    "created_at": "2026-10-10T13:32:00.419Z",
+    "category": 3
+  }
+},
+{
+  "model": "store.product",
+  "pk": 10,
+  "fields": {
+    "name": "Sports Shoes",
+    "price": "1999.00",
+    "description": "Premium Sports Shoes for Men - Built for Performance.\r\n\r\n- Super Lightweight & Breathable\r\n- Memory Foam Insole for Extra Comfort\r\n- Anti-Skid Rubber Sole - Best Grip\r\n- Use for Running, Gym, Football, Cricket\r\n\r\nIdeal for Daily Sports & Training.\r\nColor Options Available.",
+    "stock": 10,
+    "image": "products/usama-akram-kP6knT7tjn4-unsplash.jpg",
+    "created_at": "2026-10-10T13:37:31.354Z",
+    "category": 3
+  }
+},
+{
+  "model": "store.product",
+  "pk": 11,
+  "fields": {
+    "name": "Classical Casual Sneaker",
+    "price": "1999.00",
+    "description": "Trendy Casual Sneakers for Men - Vans Inspired\r\nColor: Burgundy / Maroon with White Stripe\r\nMaterial: Canvas\r\nSole: Vulcanized Rubber - Anti-Skid\r\nPerfect for College, Casual Outing\r\nComfortable & Lightweight",
+    "stock": 20,
+    "image": "products/paul-gaudriault-a-QH9MAAVNI-unsplash.jpg",
+    "created_at": "2026-10-10T13:40:17.208Z",
+    "category": 3
+  }
+},
+{
+  "model": "store.product",
+  "pk": 12,
+  "fields": {
+    "name": "Oversized White Hoodies",
+    "price": "1299.00",
+    "description": "Premium White Oversized Hoodie - Unisex Winter Wear\r\n\r\n- Fabric: 320 GSM Fleece - Soft & Warm\r\n- Fit: Oversized / Loose Fit - Trendy Look\r\n- Features: Kangaroo Pocket, Adjustable Hoodie\r\n- Color: Pure White\r\n- Size: M, L, XL Available\r\n\r\nBest for Winter, College & Streetwear. Both Boys & Girls can wear.\r\n\r\nWash Care: Machine Wash",
+    "stock": 25,
+    "image": "products/mediamodifier-kJXGTOY1wLQ-unsplash.jpg",
+    "created_at": "2026-10-10T13:47:31.583Z",
+    "category": 1
+  }
+}
+]
